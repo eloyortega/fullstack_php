@@ -1,10 +1,10 @@
 <html>
 <head>
 	<title>PHP and JSON Demo</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-	<?php require_once('nav.php'); ?>
+	<?php require_once('assets/partials/nav.php'); ?>
 	<h1>Profiles</h1>
 	<hr>
 	<table>
@@ -15,7 +15,7 @@
 		</tr>
 
 	<?php
-		$j = file_get_contents('profile.json');
+		$j = file_get_contents('assets/data.json');
 		$d = json_decode($j, true);
 		
 		foreach($d as $k => $o){
@@ -29,6 +29,6 @@
 
 	</table>
 	<hr>
-	<?php require_once('footer.php'); ?>
+	<?php require_once('assets/partials/footer.php'); ?>
 </body>
 </html>

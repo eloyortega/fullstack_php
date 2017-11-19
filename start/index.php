@@ -1,30 +1,28 @@
 <html>
 <head>
 	<title>PHP and JSON Demo</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-	<?php ?>
 	<h1>Enter A Performer</h1>
 	<hr>
-	<form action="process.php" method="post">
+	<form action="assets/process.php" method="post">
 		<input type="text" name="fullName" placeholder="John Smith">
 		<br>
-		<label>		
+		<label>
 			<input type="radio" name ="genre" value="Rock"> Rock
 		</label>
 		<br>
-		<label>		
+		<label>
 			<input type="radio" name="genre" value="Hip-Hop"> Hip-Hop
 		</label>
 		<br>
-		<label>		
+		<label>
 			<input type="radio" name="genre" value="Salsa"> Salsa
 		</label>
 		<br>
 		<input type="submit" value="submit">
 	</form>
 	<hr>
-	<?php  ?>
 </body>
 </html>

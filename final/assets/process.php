@@ -2,7 +2,7 @@
 $n = $_POST['fullName'];
 $g = $_POST['genre'];
 
-$j = file_get_contents('profile.json');
+$j = file_get_contents('data.json');
 $d = json_decode($j, true);
 
 if (count($d) == 0){ $c = 1; }
@@ -18,7 +18,7 @@ $a = array(
 $d[$k] = $a;
 
 $j = json_encode($d);
-file_put_contents('profile.json', $j);
+file_put_contents('data.json', $j);
 
-header('location:profile.php');
+header('location:../profile.php');
 ?>

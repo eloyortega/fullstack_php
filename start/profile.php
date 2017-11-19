@@ -1,10 +1,9 @@
 <html>
 <head>
 	<title>PHP and JSON Demo</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-	<?php require_once('nav.php'); ?>
 	<h1>Profiles</h1>
 	<hr>
 	<table>
@@ -15,6 +14,5 @@
 		</tr>
 	</table>
 	<hr>
-	<?php require_once('footer.php'); ?>
 </body>
 </html>

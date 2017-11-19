@@ -9,6 +9,6 @@
 		</li>
 		<li>
 			<a href="cheatsheet.php">CHEATSHEET</a>
-		</li>	
+		</li>
 	</ul>
 </nav>
