@@ -67,6 +67,13 @@
 		echo $object1->gender;
 		echo '<br>';
 		$object1->save_user();
+		echo '<br>';
+	
+	$obj = (object) [
+    'k1' => 'foo',
+    'k2' => 42,
+  ];
+	print_r($obj);
 
 	?>
 	<hr>
@@ -104,6 +111,8 @@
 			"p2" => "Larry",
 			"p3" => "Curly"
 		);
+	
+		$arr["p4"] = "Jerry";
 
 		//creates a ul
 		echo "<ul>";
@@ -112,6 +121,8 @@
 		foreach($arr as $k => $v){
 				echo "<li><b>$k:</b> $v</l1>";
 			}
+	
+	
 
 		//then close the list
 		echo "</ul>";

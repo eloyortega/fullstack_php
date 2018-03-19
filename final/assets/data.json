@@ -6,37 +6,5 @@
 	"profile2": {
 		"name": "Madonna",
 		"genre": "Rock"
-	},
-	"profile3": {
-		"name": "George Michael",
-		"genre": "Rock"
-	},
-	"profile4": {
-		"name": "Asap Rocky",
-		"genre": "Hip-Hop"
-	},
-	"profile5": {
-		"name": "Joe Budden",
-		"genre": "Hip-Hop"
-	},
-	"profile6": {
-		"name": "Tito Puente",
-		"genre": "Salsa"
-	},
-	"profile7": {
-		"name": "Gloria Estefan",
-		"genre": "Salsa"
-	},
-	"profile8": {
-		"name": "Marc Anthony",
-		"genre": "Salsa"
-	},
-	"profile9": {
-		"name": "Lady Gaga",
-		"genre": "Rock"
-	},
-	"profile10": {
-		"name": "Vast Aire",
-		"genre": "Hip-Hop"
 	}
 }
