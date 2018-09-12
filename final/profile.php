@@ -15,15 +15,15 @@
 		</tr>
 
 	<?php
-		$j = file_get_contents('assets/data.json');
-		$d = json_decode($j, true);
+		$d = file_get_contents('assets/data.json');
+		$d = json_decode($d, true);
 		
 		foreach($d as $k => $o){
-			echo "<tr>
-					<td>$k</td>
-					<td>".$o['name']."</td>
-					<td>".$o['genre']."</td>
-				</tr>";
+			echo '<tr>
+					<td>'.++$k.'</td>
+					<td>'.$o['name'].'</td>
+					<td>'.$o['genre'].'</td>
+				</tr>';
 		}
 	?>
 
