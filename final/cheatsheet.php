@@ -70,14 +70,17 @@
 		echo '<br>';
 	
 	$obj = (object) [
-    'k1' => 'foo',
-    'k2' => 42,
-  ];
+		'k1' => 'foo',
+		'k2' => 42,
+	];
+
 	print_r($obj);
 
 	?>
+
 	<hr>
 	<h2>Comparisons, Logicals, Conditionals, and Functions</h2>
+
 	<?php
 
 		//functions
@@ -91,10 +94,11 @@
 		if ($hour >= 12 && $hour <= 13) {
 			dolunch();
 		};
-
 	?>
+
 	<hr>
 	<h2>Loops</h2>
+
 	<?php
 
 		//loops
@@ -119,16 +123,17 @@
 
 		//loop through the data to creates the li's
 		foreach($arr as $k => $v){
-				echo "<li><b>$k:</b> $v</l1>";
+				echo "<li>$k : $v</l1>";
 			}
-	
-	
 
 		//then close the list
 		echo "</ul>";
 
 	?>
+
 	<hr>
+
 	<?php require_once('assets/partials/footer.php'); ?>
+
 </body>
 </html>

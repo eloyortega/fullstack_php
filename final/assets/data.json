@@ -1,1 +1,7 @@
-[{"name":"Joe Budden","genre":"Hip-Hop"},{"name":"John Lennon","genre":"Rock"}]
+[
+	{
+		"name": "joe",
+		"genre": "Salsa",
+		"img": "img\/cartoon2.jpg"
+	}
+]

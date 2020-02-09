@@ -5,7 +5,7 @@
 			<a href="index.php">HOME</a>
 		</li>
 		<li>
-			<a href="profile.php">PROFILES</a>
+			<a href="admin.php">ADMIN</a>
 		</li>
 		<li>
 			<a href="cheatsheet.php">CHEATSHEET</a>
